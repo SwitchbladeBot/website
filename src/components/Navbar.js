@@ -1,7 +1,11 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
 export default function Navbar () {
     return (
-        <h1>Switchblade</h1>
+        <div>
+            <b>Switchblade</b> <Link to='/commands'>Commands</Link> <Link to='/#'>Features</Link> <Link to='/help'>Help</Link>
+            <hr/>
+        </div>
     )
 }
