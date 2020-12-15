@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
+import '../reset.css'
+
 export default function Layout ({ children }) {
     return (
         <div>
@@ -11,7 +13,7 @@ export default function Layout ({ children }) {
             </Helmet>
             
             <Navbar/>
-            {children}
+              {children}
             <Footer/>
         </div>
     )

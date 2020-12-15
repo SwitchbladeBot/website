@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import * as React from "react"
 import Helmet from 'react-helmet'
+import Alexa from "../components/Alexa"
 
 export default function Index () {
   return (
@@ -8,7 +9,7 @@ export default function Index () {
       <Helmet>
         <title>The only bot you'll ever need | Switchblade</title>
       </Helmet>
-      welcome to our site yes we make bots!!! pls add them to ur srv
+      <Alexa/>
       <Link to='about'>aaaaaaaa</Link>
     </main>
   )

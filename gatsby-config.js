@@ -4,6 +4,17 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-layout"
+    "gatsby-plugin-layout",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'inter',
+          'montserrat',
+          'poppins'
+        ],
+        display: 'swap'
+      }
+    }
   ],
 };
